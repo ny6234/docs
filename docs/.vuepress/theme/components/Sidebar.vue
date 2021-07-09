@@ -18,24 +18,18 @@
           </div>
         </div>
       </a>-->
-      <a href="https://terra-money.github.io/terra-sdk-python/" target="_blank">
-        <div class="image">
-          <img src="https://terra.money/assets/img/terra_sdk.svg" />
-        </div>
+      <a href="#" target="_blank">
         <div class="name">
           <div>
-            <b>Terra</b> Python SDK
+            <b>Nebula</b> Website
             <i class="material-icons">transit_enterexit</i>
           </div>
         </div>
       </a>
-      <a href="https://terra-money.github.io/terra.js/" target="_blank">
-        <div class="image">
-          <img src="/img/terra_js.svg" />
-        </div>
+      <a href="#" target="_blank">
         <div class="name">
           <div>
-            <b>Terra.js</b> JS SDK
+            <b>Nebula</b> Webapp
             <i class="material-icons">transit_enterexit</i>
           </div>
         </div>
@@ -108,7 +102,7 @@ export default {
 
   .sidebar_footer {
     padding: 0.5rem 2.5rem;
-    background-color: #fff;
+    background-color: #222222;
     position: sticky;
     bottom: 0;
 
@@ -124,17 +118,14 @@ export default {
     a {
       display: block;
       position: relative;
-      color: $primaryColor;
+      color: darken($primaryColor, 40%);
       margin: 0.75rem 0;
-      padding-left: 2.875rem;
       font-weight: 400;
       font-size: 0.875rem;
       line-height: 1.1;
 
       &:hover {
-        .image {
-          background: rgba($primaryColor, 0.15);
-        }
+        color: $accentColor;
       }
 
       &:first-child {

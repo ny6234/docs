@@ -1,35 +1,5 @@
 <template>
   <div class="footer-container">
-    <div class="company">
-      <div class="copyright">Terraform labs PTE.LTD</div>
-      <div class="subscribe">
-        <div class="subscribe-title">Subscribe to get updates</div>
-        <form
-          action="https://money.us17.list-manage.com/subscribe/post?u=8eca8dc5c91c2e30d69b1463e&amp;id=1447662093"
-          method="post"
-          id="mc-embedded-subscribe-form"
-          name="mc-embedded-subscribe-form"
-          class="validate"
-          novalidate
-        >
-          <input
-            type="email"
-            value
-            name="EMAIL"
-            class="email"
-            id="mce-EMAIL"
-            placeholder="Email address"
-            required
-          />
-          real people should not fill this in and expect good things - do not remove this or risk form bot
-          signups
-          <div style="position: absolute; left: -5000px;" aria-hidden="true">
-            <input type="text" name="b_8eca8dc5c91c2e30d69b1463e_1447662093" tabindex="-1" value />
-          </div>
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </div>
     <div class="links-container">
       <ul class="learn">
         <li>Learn</li>
@@ -111,40 +81,30 @@
       <div class="logos">
         <a href="https://discord.gg/bYfyhUT" rel="noopener" target="_blank">
           <img
-            src="https://terra.money/static/assets/images/icon_discord.png"
+            src="/img/discord.svg"
             alt="link to Terra discord room"
           />
         </a>
         <a href="https://medium.com/terra-money" rel="noopener" target="_blank">
           <img
-            src="https://terra.money/static/assets/images/icon_medium.png"
+            src="/img/medium.svg"
             alt="link to Terra medium"
           />
         </a>
         <a href="https://twitter.com/terra_money" rel="noopener" target="_blank">
           <img
-            src="https://terra.money/static/assets/images/icon_twitter.png"
+            src="/img/twitter.svg"
             alt="link to Terra twitter"
-          />
-        </a>
-        <a
-          href="https://www.youtube.com/channel/UCoV1RXZ9ZBGcuu_PMTTlM0g"
-          rel="noopener"
-          target="_blank"
-        >
-          <img
-            src="https://terra.money/static/assets/images/icon_youtube.png"
-            alt="link to Terra youtube"
           />
         </a>
         <a href="https://t.me/terra_announcements" rel="noopener" target="_blank">
           <img
-            src="https://terra.money/static/assets/images/icon_telegram.png"
+            src="/img/telegram.svg"
             alt="link to Terra telegram room"
           />
         </a>
       </div>
-      <a href="https://terra.money" target="_blank" class="terramoney">terra.money</a>
+      <a href="https://terra.money" target="_blank" class="website">nebula.money</a>
     </div>
   </div>
 </template>
@@ -169,7 +129,6 @@ export default {
     line-height: 1.67;
     letter-spacing: -0.019rem;
     padding-bottom: 0.25rem;
-    text-transform: uppercase;
   }
 
   .links-container {
@@ -236,7 +195,7 @@ export default {
   input {
     flex: 1;
     appearance: none;
-    border: 1px solid #d2d9f0;
+    border: 1px solid #555557;
     box-sizing: border-box;
     color: #0f0f0f;
     height: 2rem;
@@ -249,7 +208,7 @@ export default {
   button {
     appearance: none;
     background: #f5f6fb;
-    border: 1px solid #d2d9f0;
+    border: 1px solid #555557;
     box-sizing: border-box;
     border-left: 0;
     height: 2rem;
@@ -292,12 +251,12 @@ export default {
     }
   }
 
-  .terramoney {
+  .website {
     display: block;
     margin: 1rem 0;
     font-size: 0.938rem;
     font-weight: 500;
-    color: $primaryColor;
+    color: $accentColor;
 
     &:hover {
       color: $textColor;
@@ -353,7 +312,7 @@ export default {
     margin-top: 0;
     position: absolute;
     left: 2.5rem;
-    top: 17.5rem;
+    top: 7.6rem;
   }
 }
 </style>

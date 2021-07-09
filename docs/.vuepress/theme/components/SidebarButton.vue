@@ -17,7 +17,7 @@
   width: 2.25rem
   height: 2.25rem;
   border-radius: 1.125rem;
-  background: rgba(32,67,181,0.08)
+  background: rgba($primaryColor, 0.08)
   position: absolute;
   padding: 0;
   text-align: center;

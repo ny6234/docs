@@ -119,8 +119,14 @@ $sm-mobile-navbar-horizontal-padding = 1.5rem;
     display: inline-block;
   }
 
+  .home-link {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+  }
+
   .logo {
-    height: 3rem;
+    height: 1.2rem;
     width: auto;
     margin-right: 0.8rem;
     vertical-align: top;
@@ -167,7 +173,7 @@ $sm-mobile-navbar-horizontal-padding = 1.5rem;
         color: transparent;
 
         &:focus, &:active {
-          background-color: #fff;
+          background-color: #161616;
           box-shadow: 0px 0.125rem 0.375rem 0px rgba(0, 0, 0, 0.2);
           padding-left: 2.25rem;
           padding-right: 1rem;
@@ -188,7 +194,7 @@ $sm-mobile-navbar-horizontal-padding = 1.5rem;
     line-height: 1;
 
     .logo {
-      height: 2.25rem;
+      height: 1rem;
     }
 
     .can-hide {
@@ -214,6 +220,7 @@ $sm-mobile-navbar-horizontal-padding = 1.5rem;
             width: 2.25rem;
             border-radius: 1.125rem;
             background: rgba($primaryColor, 0.08) url('/img/search.svg') 0.625rem center no-repeat;
+            background-size: 18px 18px;
             left: 0;
 
             &:active, &:focus {

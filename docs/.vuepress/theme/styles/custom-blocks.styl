@@ -9,41 +9,41 @@
     border-left-style solid
     margin 1rem 0
   &.tip
-    background-color rgba(#1b9400,.1)
-    border-color #1b9400
+    background-color #2d2d2e
+    border-color #2fa515
     .custom-block-title
-      color #20ad00
+      color #2fa515
     .custom-block-title
-      color darken(#1b9400, 22%) !important
+      color #2fa515 !important
     p
-      color darken(#1b9400, 35%) !important
+      color #ccc !important
       code
-        color darken(#1b9400, 35%)
-        background-color rgba(#1b9400,0.07)
+        color #2fa515
+        background-color rgba(#2fa515,0.0)
   
   &.warning
-    background-color rgba(#FFB822,.1)
+    background-color #2d2d2e
     border-color #FFB822
     .custom-block-title
-      color darken(#FFB822, 22%) !important
+      color #FFB822 !important
     p
-      color darken(#FFB822, 35%) !important
+      color #ccc !important
       code
-        color darken(#FFB822, 35%)
-        background-color rgba(#FFB822,0.1)
+        color #FFB822
+        background-color rgba(#FFB822,0.0)
 
   &.danger
-    background-color rgba(#e00400,.1)
-    border-color #e00400
+    background-color #2d2d2e
+    border-color #ff0500
     .custom-block-title
-      color #e00400
+      color #ff0500
     .custom-block-title
-      color darken(#e00400, 10%) !important
+      color #ff0500 !important
     p
-      color darken(#e00400, 15%) !important
+      color #ccc !important
       code
-        color darken(#e00400, 15%)
-        background-color rgba(#e00400,0.1)
+        color #ff0500
+        background-color rgba(#ff0500,0.0)
 
   &.details
     display block
@@ -51,14 +51,15 @@
     border-radius 6px
     margin 1.6em 0
     padding 1.6em
-    background-color lighten($primaryColor, 90%)
+    background-color rgba(0,0,0,.3)
+    border solid 1px #333
     summary
       color $primaryColor
       font-weight 500
       display flex
       align-items center
     div[class*="language-"]
-      background rgba(255,255,255,.9)
+      background rgba(255,255,255,1)
       border-radius 6px
       margin-top 1em
     h4

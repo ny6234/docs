@@ -117,7 +117,7 @@ function renderExternal(h, to, text) {
 <style lang="stylus">
 .sidebar .sidebar-sub-header {
   a {
-    color: #444;
+    color: #a4a4a4;
 
     &:before {
       content: '';
@@ -161,7 +161,7 @@ a.sidebar-link {
 
   &.active {
     font-weight: 500;
-    color: $primaryColor;
+    color: $accentColor;
     border-left-color: $accentColor;
   }
 
