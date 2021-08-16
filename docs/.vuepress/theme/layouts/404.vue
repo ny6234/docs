@@ -1,15 +1,13 @@
 <template>
   <div class="errorPage">
-    <h1>Oops!</h1>
-
-    <blockquote>{{ getMsg() }}</blockquote>
     <div>
       <img src="/img/404page.png" />
+      <div style="text-align: center;margin-bottom: 40px;font-size: 16px;">{{ getMsg() }}</div>
     </div>
 
     <RouterLink to="/">
       <div class="button">
-        Back to Terra Docs
+        Back to Docs
         <i class="material-icons">redo</i>
       </div>
     </RouterLink>
@@ -61,7 +59,7 @@ export default {
 
   .button {
     margin-top: 1rem;
-    background-color: $primaryColor;
+    background-color: $accentColor;
     color: #fff;
     border-radius: 0.625rem;
     padding: 1rem 1.875rem;

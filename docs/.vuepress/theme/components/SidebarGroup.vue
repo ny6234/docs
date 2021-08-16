@@ -149,7 +149,7 @@ export default {
   overflow: hidden;
 
   a.sidebar-link {
-    color: #a4a4a4;
+    color: #E9E9EA;
 
     &:before {
       content: '';
@@ -218,7 +218,7 @@ export default {
           border-left: solid 1px darken($borderColor, 5%);
           padding-left: 2.188rem;
           font-size: 0.78rem;
-          color: #858585;
+          color: #A19FA6;
 
           &:before {
             display: none;

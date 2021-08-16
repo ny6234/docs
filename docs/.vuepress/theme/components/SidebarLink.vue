@@ -117,7 +117,7 @@ function renderExternal(h, to, text) {
 <style lang="stylus">
 .sidebar .sidebar-sub-header {
   a {
-    color: #a4a4a4;
+    color: #E9E9EA;
 
     &:before {
       content: '';

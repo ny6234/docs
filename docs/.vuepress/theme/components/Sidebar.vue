@@ -102,7 +102,7 @@ export default {
 
   .sidebar_footer {
     padding: 0.5rem 2.5rem;
-    background-color: #222222;
+    background-color: #1A1525;
     position: sticky;
     bottom: 0;
 
